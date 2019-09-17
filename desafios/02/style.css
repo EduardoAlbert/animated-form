@@ -33,6 +33,7 @@ form {
   background-color: white;
   padding: 30px 25px;
   border-radius: 5px;
+  overflow: hidden
 }
 
 form .input-block {
@@ -70,8 +71,36 @@ form .btn-login {
 /* Aparição do Form */
 
 form {
-  animation-name: fade;
-  animation-duration: 500ms;
+  overflow: hidden;
+  animation: fade 0.2s;
+}
+
+form .input-block:nth-child(1){
+  animation: move 500ms;
+}
+
+form .input-block:nth-child(2){
+  animation: move 400ms;
+  animation-delay: 100ms;
+  animation-fill-mode: backwards
+}
+
+form .btn-login {
+  animation: move 400ms;
+  animation-delay: 250ms;
+  animation-fill-mode: backwards
+}
+
+@keyframes move {
+  from {
+    opacity: 0;
+    transform: translateX(-35%);
+  } 
+  to {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateX(0);
+  }
 }
 
 @keyframes fade {
