@@ -1,4 +1,6 @@
 # Formulário animado com JS puro e CSS Animation
+
+![PNG](https://github.com/EduardoAlbert/form-animated/blob/master/form.PNG)
 ![GIF](https://github.com/EduardoAlbert/form-animated/blob/master/giphy.gif)
 ![GIF](https://github.com/EduardoAlbert/form-animated/blob/master/giphy2.gif)
 ## Desafios
@@ -47,6 +49,8 @@ podemos ter múltiplas animações no mesmo elemento
 
 
 ## References
+
+[RocketSeat](https://github.com/Rocketseat)
 
 [CSS Animation Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
 
