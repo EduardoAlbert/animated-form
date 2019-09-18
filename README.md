@@ -1,5 +1,6 @@
 # Formulário animado com JS puro e CSS Animation
-
+![GIF](https://github.com/EduardoAlbert/form-animated/blob/master/giphy.gif)
+![GIF](https://github.com/EduardoAlbert/form-animated/blob/master/giphy2.gif)
 ## Desafios
 
 - [x] Fazer o formulário aparecer, suavemente, quando a página abrir
