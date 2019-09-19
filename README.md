@@ -4,7 +4,7 @@
 ## Passive animations
 ![GIF](https://github.com/EduardoAlbert/form-animated/blob/master/assets/giphy.gif)
 ## Interactions
-![GIF](https://github.com/EduardoAlbert/form-animated/blob/master/assets/giphy2.gif)
+![GIF](https://media.giphy.com/media/WouSaUjexWk3SYHuKy/giphy.gif)
 ## Desafios
 
 - [x] Fazer o formulário aparecer, suavemente, quando a página abrir
