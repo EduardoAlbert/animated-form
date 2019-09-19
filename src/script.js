@@ -1,5 +1,5 @@
 const btnLogin = document.querySelector('.btn-login');
-const form = document.querySelector('form');
+const form = document.querySelector('section');
 const h1 = document.querySelector('h1')
 
 btnLogin.addEventListener('click', event => {
@@ -49,7 +49,7 @@ for ( let i = 0; i < 13; i++ ) {
   const size = Math.floor(random(10, 120));
   const position1 = random(68, 99);
   const position2 = random(1, 32);
-  const delay = random(5, 0.1);
+  i == 0 ? delay = 1 : delay = random(5, 0.1);
   const duration = random(24, 12);
   let position = Number
   if (i % 2 == 0) {

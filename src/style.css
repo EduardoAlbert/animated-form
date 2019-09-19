@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html,
@@ -12,28 +10,49 @@ body {
 body {
   background-color: #1e1d1f;
   font-family: Roboto, Arial, sans-serif;
+  display: flex;
+  padding: 150px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div#text {
+  background-color: rgb(37, 37, 37);
+  width: 288px;
+  height: 175px;
+  border-radius: 15px;
+  text-align: center;
+  border: 2px solid darkslateblue;
 }
 
 section {
+  background-color: rgb(22, 22, 22);
+  width: 280px;
+  height: 290px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  border: 2px solid darkslateblue;
+}
+
+p {
+  color: #ad99f1;
+  font-size: 11pt
 }
 
 h1 {
-  font-size: 32px;
-  letter-spacing: 0.2px;
-  margin: 20px 0;
-  color: #7159c1;
+  font: bold 33pt sans-serif;
+  color: #ad99f1;
 }
 
 form {
-  margin: 20px 0;
-  background-color: white;
-  padding: 30px 25px;
-  border-radius: 5px;
-  overflow: hidden
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 form .input-block {
@@ -52,14 +71,14 @@ form .input-block input {
   padding: 7px;
   font-size: 16px;
   color: #7159c1;
-  border-radius: 2px;
+  border-radius: 4px;
   border: 1px solid #bccbdb;
   outline-color: #7159c1;
 }
 
 form .btn-login {
   display: block;
-  min-width: 120px;
+  min-width: 130px;
   border: none;
   background-color: #7159c1;
   color: rgb(255, 255, 255);
@@ -71,8 +90,7 @@ form .btn-login {
 
 /* Aparição do Form */
 
-form {
-  overflow: hidden;
+section {
   animation: fade 0.2s;
 }
 
@@ -95,7 +113,7 @@ form .btn-login {
 @keyframes move {
   from {
     opacity: 0;
-    transform: translateX(-35%);
+    transform: translateX(-20%);
   } 
   to {
     opacity: 1;
@@ -134,20 +152,7 @@ form .btn-login {
   }
 }
 
-.h1-hide {
-  animation: right 500ms forwards;
-}
 
-@keyframes right {
-  0% {
-    transform: translateX(0);
-  } 50% {
-    transform: translateX(-5vh);
-  } 
-  100% {
-    transform: translateX(200vh);
-  }
-}
 
 /* Form NO-NO */
 
@@ -183,7 +188,7 @@ body {
   bottom: -40px;
   animation: up infinite;
   animation-direction: alternate;
-  border: 1px #b19aff solid;
+  border: 2px #b19aff solid;
   border-radius: 2px;
 }
 
