@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -10,20 +12,21 @@ body {
 body {
   background-color: #1e1d1f;
   font-family: Roboto, Arial, sans-serif;
-  display: flex;
   padding: 150px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
-div#text {
+div#welcome {
   background-color: rgb(37, 37, 37);
-  width: 288px;
+  width: 280px;
   height: 175px;
-  border-radius: 15px;
+  border: 1px solid darkslateblue;
+  border-radius: 2px;
+  border-top-left-radius: 12px;
   text-align: center;
-  border: 2px solid darkslateblue;
 }
 
 section {
@@ -33,18 +36,17 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border-radius: 15px;
-  border: 2px solid darkslateblue;
-}
-
-p {
-  color: #ad99f1;
-  font-size: 11pt
+  border: 1px solid darkslateblue;
+  border-radius: 2px;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 h1 {
-  font: bold 33pt sans-serif;
-  color: #ad99f1;
+  font-family: 'Raleway', sans-serif;
+  font-size: 33pt;
+  color: #ffffff;
+  margin-top: 62px;
 }
 
 form {
@@ -59,33 +61,37 @@ form .input-block {
   margin-bottom: 20px;
 }
 
-form .input-block label {
-  font-size: 14px;
-  color: darkslateblue;
-}
-
 form .input-block input {
-  width: 100%;
   display: block;
+  width: 100%;
   margin-top: 8px;
   padding: 7px;
   font-size: 16px;
   color: #7159c1;
-  border-radius: 4px;
-  border: 1px solid #bccbdb;
+  border: 1px solid darkslateblue;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 4px;
   outline-color: #7159c1;
+  margin-bottom: -8px;
+  outline: none;
 }
 
 form .btn-login {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
   display: block;
-  min-width: 130px;
-  border: none;
-  background-color: #7159c1;
+  width: 100%;
+  background-color: rgb(37, 37, 37);
   color: rgb(255, 255, 255);
-  border-radius: 25px;
-  margin: auto;
+  border-width: 0px;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin: 0px;
   padding: 7px;
-  box-shadow: 0px 3px 0px #ad99f1
+  box-shadow: 0px 2px 0px darkslateblue;
+  cursor: pointer;
+  outline: none;
 }
 
 /* Aparição do Form */
@@ -152,16 +158,14 @@ form .btn-login {
   }
 }
 
-
-
 /* Form NO-NO */
 
 .validate-error {
-  animation: nono 200ms linear, fade paused;
+  animation: error 200ms linear, fade paused;
   animation-iteration-count: 2;
 }
 
-@keyframes nono {
+@keyframes error {
   0%,
   100% {
     transform: translateX(0);
@@ -188,8 +192,8 @@ body {
   bottom: -40px;
   animation: up infinite;
   animation-direction: alternate;
-  border: 2px #b19aff solid;
-  border-radius: 2px;
+  border: 1px #b19aff solid;
+  border-radius: 3px;
 }
 
 @keyframes up {
