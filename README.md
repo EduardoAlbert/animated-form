@@ -6,7 +6,7 @@
 ## Interactions
 ![GIF](https://media.giphy.com/media/WouSaUjexWk3SYHuKy/giphy.gif)
 
-[See how I did it!](https://youtu.be/genaJMdcZeI)
+### [Click here](https://youtu.be/genaJMdcZeI) and see how I did it
 
 ## Desafios
 
