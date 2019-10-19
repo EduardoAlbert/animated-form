@@ -1,10 +1,13 @@
 # Animated Form
-[See how I did it](https://youtu.be/genaJMdcZeI)
+
 ![PNG](https://github.com/EduardoAlbert/form-animated/blob/master/assets/form.PNG)
 ## Passive animations
 ![GIF](https://github.com/EduardoAlbert/form-animated/blob/master/assets/giphy.gif)
 ## Interactions
 ![GIF](https://media.giphy.com/media/WouSaUjexWk3SYHuKy/giphy.gif)
+
+[See how I did it!](https://youtu.be/genaJMdcZeI)
+
 ## Desafios
 
 - [x] Fazer o formulário aparecer, suavemente, quando a página abrir
