@@ -1,4 +1,4 @@
-# Formulário animado com HTML, JavaScript puro e CSS Animation
+# Animated Form
 
 ![PNG](https://github.com/EduardoAlbert/form-animated/blob/master/assets/form.PNG)
 ## Passive animations
